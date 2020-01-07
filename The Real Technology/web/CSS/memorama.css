@@ -1,0 +1,194 @@
+/* 
+    Created on : 10-abr-2016, 13:30:22
+    Author     : AZEre
+*/
+.espera{
+    opacity: 0;
+}
+.uno{
+    position: absolute;
+    width: 267px;
+    z-index: 0;
+    top: 80px;
+}
+.duno{
+    position: absolute;
+    width: 267px;
+    z-index: 0;
+    top: 360px;
+}
+.dos{
+    position: absolute;
+    width: 267px;
+    left: 279px;
+    z-index: 0;
+    top: 80px;
+}
+.ddos{
+    position: absolute;
+    width: 267px;
+    left: 279px;
+    z-index: 0;
+    top: 360px;
+}
+.tres{
+    position: absolute;
+    width: 267px;
+    left: 550px;
+    z-index: 0;
+    top: 80px;
+}
+.dtres{
+    position: absolute;
+    width: 267px;
+    left: 550px;
+    z-index: 0;
+    top: 360px;
+}
+.cuatro{
+    position: absolute;
+    width: 267px;
+    left: 821px;
+    z-index: 0;
+    top: 80px;
+}
+.dcuatro{
+    position: absolute;
+    width: 267px;
+    left: 821px;
+    z-index: 0;
+    top: 360px;
+}
+
+.couno{
+    position: absolute;
+    width: 267px;
+    z-index: 0;
+    top: 29px;
+}
+.coduno{
+    position: absolute;
+    width: 267px;
+    z-index: 0;
+    top: 300px;
+}
+.codos{
+    position: absolute;
+    width: 267px;
+    left: 279px;
+    z-index: 0;
+    top: 29px;
+}
+.coddos{
+    position: absolute;
+    width: 267px;
+    left: 279px;
+    z-index: 0;
+    top: 300px;
+}
+.cotres{
+    position: absolute;
+    width: 267px;
+    left: 550px;
+    z-index: 0;
+    top: 29px;
+}
+.codtres{
+    position: absolute;
+    width: 267px;
+    left: 550px;
+    z-index: 0;
+    top: 300px;
+}
+.cocuatro{
+    position: absolute;
+    width: 267px;
+    left: 821px;
+    z-index: 0;
+    top: 29px;
+}
+.codcuatro{
+    position: absolute;
+    width: 267px;
+    left: 821px;
+    z-index: 0;
+    top: 300px;
+}
+.img{
+    z-index: -2;
+}
+img{
+    z-index: 3;
+}
+#instrucciones{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.instrucciones{
+    animation-name: transision;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+.instrucciones2{
+    animation-name: transision2;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+.oculta{
+    animation-name: transision2;
+    animation-duration: .5s;
+    animation-direction: normal;
+}
+.esconde{
+    animation-name: transision;
+    animation-duration: .5s;
+    animation-direction: normal;
+}
+#dialogo{
+    position: absolute;
+    top: 30%;
+    font-size: x-large;
+    right: 30%;
+    min-height: 40px;
+}
+.dialogo{
+    animation-name: transision;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+.dialogo2{
+    animation-name: transision2;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+#globo{
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    min-height: 40px;
+}
+.globo{
+    opacity: 1; 
+    width: 0px;
+    height: 0px;
+}
+@keyframes transision {
+    from {
+         opacity: 0; 
+    }
+    to {    
+         opacity: 1; 
+    }
+}
+@keyframes transision2 {
+    from {
+         opacity: 1; 
+    }
+    to {    
+         opacity: 0; 
+    }
+}
+

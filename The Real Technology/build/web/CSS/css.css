@@ -1,0 +1,33 @@
+body{
+    font-family: arial;
+    font-size: 12px;
+    
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    width: 80%;
+}
+
+.input
+  {
+ 	padding: 10px;
+        border: none;
+	border-bottom: solid 2px #c9c9c9;
+	transition: border 0.3s;
+	width: 200px;
+        text-align: center;
+}
+
+.boton
+{
+  cursor:pointer; 
+	padding:5px 25px; 
+	background:RGB(55,55,55);
+	border:1px solid RGB(70,70,70);
+	border-radius: 10px;
+	box-shadow: 0 0 4px rgba(81,81,81, .75);
+	color:white;
+	font-size:1.1em;
+}
