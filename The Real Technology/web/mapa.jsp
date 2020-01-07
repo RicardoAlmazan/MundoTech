@@ -73,7 +73,7 @@
     }
 
 %>
-<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCOmsgu2JEHhet1QU7rJ_L7mBRzb2nb_Ow&sensor=false&extension=.js'></script> 
+<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
 
 <script>
     google.maps.event.addDomListener(window, 'load', init);
